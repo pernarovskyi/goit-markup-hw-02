@@ -184,3 +184,7 @@ a {
 }
 
 /*---------------------- Portfolio ----------------------*/
+
+.portfolio-list p {
+  color: var(--secondary-text-color);
+}
