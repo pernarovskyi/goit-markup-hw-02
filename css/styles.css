@@ -12,9 +12,9 @@
 
 body {
   font-family: 'Roboto', sans-serif;
-  font-style: normal;
-  font-weight: normal;
+
   color: var(--page-main-text-color);
+  letter-spacing: 0.03em;
 }
 
 a {
@@ -33,17 +33,15 @@ a {
   font-weight: 700;
   font-size: 36px;
   line-height: 1.17;
-  letter-spacing: 0.03em;
   color: var(--section-title-text-color);
 }
 
 .button {
-  font-family: 'Roboto';
+  font-family: 'Roboto', sans-serif;
   font-weight: 500;
   font-size: 16px;
   line-height: 1.62;
   text-align: center;
-  letter-spacing: 0.03em;
   color: var(--button-text-color);
   background-color: var(--button-bg-color);
   cursor: pointer;
@@ -64,11 +62,9 @@ a {
 
 .logo {
   font-family: Raleway;
-  font-style: normal;
   font-weight: 700;
   font-size: 26px;
   line-height: 1.19;
-  letter-spacing: 0.03em;
   color: var(--primary-blue-color);
 }
 
@@ -135,15 +131,12 @@ a {
   font-weight: 700;
   font-size: 14px;
   line-height: 1.14;
-  letter-spacing: 0.03em;
   text-transform: uppercase;
 }
 
 .priority-text {
-  font-weight: 400;
   font-size: 14px;
   line-height: 1.71;
-  letter-spacing: 0.03em;
   color: var(--secondary-text-color);
 }
 
@@ -157,14 +150,11 @@ a {
   font-weight: 500;
   font-size: 16px;
   line-height: 1.9;
-  letter-spacing: 0.03em;
 }
 
 .team-item > p {
-  font-weight: 400;
   font-size: 16px;
   line-height: 1.9;
-  letter-spacing: 0.03em;
   color: var(--secondary-text-color);
 }
 
@@ -182,7 +172,6 @@ a {
   font-weight: 400;
   font-size: 14px;
   line-height: 1.71;
-  letter-spacing: 0.03em;
 }
 
 .footer-address {
