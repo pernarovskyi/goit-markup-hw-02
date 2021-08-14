@@ -1,9 +1,9 @@
 :root {
   --primary-blue-color: #2196f3;
-  --primary-text-color: #212121;
+  --page-main-text-color: #212121;
   --secondary-text-color: #757575;
-  --button-bg-color: #f5f4fa;
   --dark-bg-color: #2f303a;
+  --button-bg-color: #f5f4fa;
   --active-button-bg-color: #2196f3;
   --button-text-color: #212121;
   --active-button-text-color: #ffffff;
@@ -11,9 +11,14 @@
 }
 
 body {
-  font-family: 'Roboto', s ans-serif;
+  font-family: 'Roboto', sans-serif;
   font-style: normal;
   font-weight: normal;
+  color: var(--page-main-text-color);
+}
+
+a {
+  cursor: default;
 }
 
 .link {
@@ -33,16 +38,29 @@ body {
 }
 
 .button {
-  background-color: var(--button-bg-color);
+  font-family: 'Roboto';
+  font-weight: 500;
+  font-size: 16px;
+  line-height: 1.62;
+  text-align: center;
+  letter-spacing: 0.03em;
   color: var(--button-text-color);
+  background-color: var(--button-bg-color);
+  cursor: pointer;
 }
 
-.button:hover {
+.button:hover,
+.button:focus {
   background-color: var(--active-button-bg-color);
   color: var(--active-button-text-color);
 }
 
 /*---------------------- Navigation bar ----------------------*/
+
+.nav a,
+.contact-info a {
+  cursor: pointer;
+}
 
 .logo {
   font-family: Raleway;
@@ -63,7 +81,11 @@ body {
   font-size: 14px;
   line-height: 1.14;
   letter-spacing: 0.02em;
-  color: var(--primary-text-color);
+  color: var(--page-main-text-color);
+}
+
+.current {
+  color: var(--primary-blue-color);
 }
 
 .nav-item:hover,
@@ -115,7 +137,6 @@ body {
   line-height: 1.14;
   letter-spacing: 0.03em;
   text-transform: uppercase;
-  color: var(--primary-text-color);
 }
 
 .priority-text {
@@ -137,7 +158,6 @@ body {
   font-size: 16px;
   line-height: 1.9;
   letter-spacing: 0.03em;
-  color: var(--primary-text-color);
 }
 
 .team-item > p {
